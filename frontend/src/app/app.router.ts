@@ -36,6 +36,9 @@ import { Regisest1Component } from './pages/admin/regisest1/regisest1.component'
 import { Regisprof1Component } from './pages/admin/regisprof1/regisprof1.component';
 import { RegistroestudComponent } from './pages/admin/registroestud/registroestud.component';
 import { RegistroprofComponent } from './pages/admin/registroprof/registroprof.component';
+import { ProfesorComponent } from './pages/profesor/profesor.component';
+import { PevatemaComponent } from './pages/profesor/pevatema/pevatema.component';
+import { PevaestudComponent } from './pages/profesor/pevaestud/pevaestud.component';
 
 
 const appRoutes: Routes = [
@@ -78,7 +81,18 @@ const appRoutes: Routes = [
        { path: 'regisest1', component: Regisest1Component},
        { path: 'regisprof1', component: Regisprof1Component},
        { path: 'registroestud', component: RegistroestudComponent},
-        // { path: 'registroprof', component: RegistroprofComponent},
+      // { path: 'registroprof', component: RegistroprofComponent},
+        // RUTAS DEL PROFESOR
+        { path: 'profesor', component: ProfesorComponent},
+        { path: 'temaprof', component: PevatemaComponent},
+        { path: 'estudprof', component: PevaestudComponent},
+
+
+
+
+
+
+
 
 
 
