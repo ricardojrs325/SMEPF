@@ -86,6 +86,7 @@ const appRoutes: Routes = [
         { path: 'profesor', component: ProfesorComponent},
         { path: 'temaprof', component: PevatemaComponent},
         { path: 'estudprof', component: PevaestudComponent},
+        
 
 
 

@@ -39,6 +39,9 @@ import { PevaestudComponent } from './profesor/pevaestud/pevaestud.component';
 import { PevatemaComponent } from './profesor/pevatema/pevatema.component';
 import { ProfesorComponent } from './profesor/profesor.component';
 
+import { Grafica1Component } from './graficas/grafica1/grafica1.component';
+import { Grafica2Component } from './graficas/grafica2/grafica2.component';
+
 
 
 
@@ -73,6 +76,8 @@ import { ProfesorComponent } from './profesor/profesor.component';
         PevaestudComponent,
         PevatemaComponent,
         ProfesorComponent,
+        Grafica1Component,
+        Grafica2Component,
 
 
 
@@ -86,6 +91,8 @@ import { ProfesorComponent } from './profesor/profesor.component';
         Uni1Component,
         Uni2Component,
         Uni3Component,
+        Grafica1Component,
+        Grafica2Component,
 
 
     ],
