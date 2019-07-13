@@ -1,0 +1,269 @@
+<br>
+<div class="text-left container mt-2">
+
+
+    <!-- Parte del listado de Catedra -->
+    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+        <h4 class="card-title">Listado de Estudiante</h4>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm">
+
+                <div class="row">
+                    <div class="col-sm">
+
+                        <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="basicModal.show()" mdbWavesEffect>Crear Estudiante</button>
+
+                        <div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+                                                <span aria-hidden="true">×</span>
+                                                </button>
+                                        <h4 class="modal-title w-100" id="myModalLabel">Crear Estudiante</h4>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <!-- Grid row -->
+                                        <div class="row">
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+
+                                                <div class="md-form input-group">
+                                                    <span class="input-group-btn"></span>
+                                                    <input type="search" class="form-control" placeholder="Nombre:">
+                                                </div>
+
+                                                <div class="md-form input-group">
+                                                    <span class="input-group-btn"></span>
+                                                    <input type="search" class="form-control" placeholder="Cedula:">
+                                                </div>
+
+                                            </div>
+                                            <!-- Grid column -->
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+
+                                                <div class="md-form input-group">
+                                                    <input type="search" class="form-control" placeholder="Apellido:">
+                                                    <span class="input-group-btn"></span>
+                                                </div>
+
+                                            </div>
+                                            <!-- Grid column -->
+
+                                        </div>
+                                        <!-- Grid row -->
+
+                                        <!-- Grid row -->
+                                        <div class="row">
+
+                                            <!-- Grid column -->
+
+
+
+
+                                            <div class="col-md-4">
+
+
+                                                <p>Sexo:</p>
+                                                <!-- Default inline 1-->
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample" mdbInput>
+                                                    <label class="custom-control-label" for="defaultInline1">Hombre</label>
+                                                </div>
+
+                                                <!-- Default inline 2-->
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample" mdbInput>
+                                                    <label class="custom-control-label" for="defaultInline2">Mujer</label>
+                                                </div>
+
+
+
+                                            </div>
+                                            <!-- Grid column -->
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+
+                                                <div class="md-form input-group">
+                                                    <input type="search" class="form-control" placeholder="Dirección">
+                                                    <span class="input-group-btn"></span>
+                                                </div>
+
+                                            </div>
+                                            <!-- Grid column -->
+
+                                        </div>
+
+
+
+                                        <h4 class="modal-title w-100" id="myModalLabel">Credenciales</h4>
+                                        <hr>
+                                        <!-- Grid row -->
+
+                                        <div class="row">
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+
+
+                                                <div class="md-form input-group">
+                                                    <span class="input-group-btn"></span>
+                                                    <input type="search" class="form-control" placeholder="Correo">
+                                                </div>
+
+                                            </div>
+                                            <!-- Grid column -->
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+
+                                                <div class="md-form input-group">
+                                                    <input type="search" class="form-control" placeholder="Celular">
+                                                    <span class="input-group-btn"></span>
+                                                </div>
+
+                                            </div>
+                                            <!-- Grid column -->
+
+                                        </div>
+
+
+                                        <h4 class="modal-title w-100" id="myModalLabel">Clase</h4>
+                                        <hr>
+                                        <!-- Grid row -->
+
+                                        <div class="row">
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+
+
+                                                <div class="md-form input-group">
+                                                    <span class="input-group-btn"></span>
+                                                    <div class="md-form input-group">
+                                                        <select class="browser-default custom-select">
+                                                                        <option selected>Grupo</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                      </select>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <div class="col-md-6">
+
+
+                                                <div class="md-form input-group">
+                                                    <span class="input-group-btn"></span>
+                                                    <div class="md-form input-group">
+                                                        <select class="browser-default custom-select">
+                                                                            <option selected>Profesor</option>
+                                                                            <option value="1">One</option>
+                                                                            <option value="2">Two</option>
+                                                                            <option value="3">Three</option>
+                                                                          </select>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+
+
+
+
+
+                                        </div>
+
+
+
+
+
+
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" mdbBtn color="secondary" class="waves-light" aria-label="Close" (click)="basicModal.hide()" mdbWavesEffect>Cancelar</button>
+                                        <button type="button" mdbBtn color="primary" class="relative waves-light" mdbWavesEffect>Aceptar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a href="http://localhost:4200/#/registroprof " class="btn btn-rounded btn-md ">Crear Profesor</a> -->
+
+                    </div>
+                    <div class="col-sm-8">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-8">
+
+            </div>
+        </div>
+
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Cedula</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col-sm"> Dirección </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <!-- *ngFor="let catedra of catedras; let i = index" -->
+
+                <!--  
+
+                      <tr>
+                    <th scope="row"></th>
+                    <td>{{catedra.idcode}}</td>
+                    <td>{{catedra.v_unidad_academica}}</td>
+                    <td>{{catedra.v_area_conocimiento}}</td>
+                    <td>{{catedra.v_cantidad}}</td>
+                    <td>
+                        <button type="button" name="button" class="btn btn-warning bbtn" (click)="f_editar_catedra(catedra)">
+                  <img src="./assets/img/png/edit-icon.png" alt="Editar" width="14px" height="14px">
+                </button>
+                    </td>
+                    <td>
+                        <button type="button" name="button" class="btn btn-outline-danger bbtn" (click)="f_borrar_catedra(i)">
+                  <img src="./assets/img/png/delete-icon.png" alt="Editar" width="14px" height="14px">
+                </button>
+                    </td>
+                </tr>
+
+
+                -->
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Boton Inserta datos -->
+    <div class="shadow-lg p-3 mb-5 bg-white rounded nav justify-content-center">
+
+        <button type="button" class="btn btn-success bbtn btn-lg" [routerLink]="['/admin']">Regresar</button>
+
+        <button [routerLink]="['/admin']" routerLinkActive="router-link-active" type="button" (click)="f_crear_concurso()" class="btn btn-success bbtn btn-lg">Enviar</button>
+    </div>
+
+</div>
