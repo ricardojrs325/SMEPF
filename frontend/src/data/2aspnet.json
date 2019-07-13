@@ -1,33 +1,33 @@
 {
     "id": 2,
-    "name": "Ejercico 2",
+    "name": "Tema 2: Adición de números reales",
     "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
     "questions": [{
             "id": 1010,
-            "name": "ASP.NET webform separates the HTML output from program logic using a feature named as",
+            "name": "¿Cuál son los términos que intervienen en la adición de números reales?",
             "questionTypeId": 1,
             "options": [{
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Exception",
+                    "name": "Restador y Sumador",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Code-behind",
+                    "name": "Coeficiente y el residuo ",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Code-front",
+                    "name": "Sumando y el resultado",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
+                    "name": "Resultado y el coeficiente",
                     "isAnswer": false
                 }
             ],
@@ -39,30 +39,30 @@
         },
         {
             "id": 1011,
-            "name": "The feature in ASP.NET 2.0 that is used to fire a normal postback to a different page in the application is called",
+            "name": "¿Cuál es el resultado de 4 + (-5)?",
             "questionTypeId": 1,
             "options": [{
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Theme",
-                    "isAnswer": false
+                    "name": "-1",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Code-front",
+                    "name": "-9",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Cross Page Posting",
-                    "isAnswer": true
+                    "name": "1",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
+                    "name": "9",
                     "isAnswer": false
                 }
             ],
@@ -74,30 +74,30 @@
         },
         {
             "id": 1012,
-            "name": "What class does the ASP.NET Web Form class inherit from by default?",
+            "name": "¿Cuáles son los términos que intervienen en la sustracción de números reales?",
             "questionTypeId": 1,
             "options": [{
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "System.Web.UI.Page",
-                    "isAnswer": true
+                    "name": "Cofactor y el resultado",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "System.Web.UI.Form",
-                    "isAnswer": false
+                    "name": "Sustraendo, minuendo y el resultado",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "System.Web.GUI.Page",
+                    "name": "Restador y el sumador",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "System.Web.Form",
+                    "name": "Dividendo, residuo, resultado",
                     "isAnswer": false
                 }
             ],
@@ -109,30 +109,30 @@
         },
         {
             "id": 1013,
-            "name": "What does MVC stand for?",
+            "name": "¿Cuál es el resultado de 35 + (-40)?",
             "questionTypeId": 1,
             "options": [{
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Model View Controller",
-                    "isAnswer": true
+                    "name": "-4",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Maximum Virtual Control",
+                    "name": "-6",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Microsoft Visual Core",
-                    "isAnswer": false
+                    "name": "-5",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
+                    "name": "-3",
                     "isAnswer": false
                 }
             ],
@@ -144,206 +144,31 @@
         },
         {
             "id": 1014,
-            "name": "Which of the following does NOT require type casting?",
+            "name": "¿Cuál es el resultado de -27 + (-7)?",
             "questionTypeId": 1,
             "options": [{
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Session",
+                    "name": "24/15",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "TempData",
+                    "name": "-16/3",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "ViewData",
+                    "name": "-32/6",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "ViewBag",
+                    "name": "-18/4",
                     "isAnswer": true
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1015,
-            "name": "Which is the correct order of Page life-cycle in asp.net webform?",
-            "questionTypeId": 1,
-            "options": [{
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "Init, PreRender, Load",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "Load, PreRender, Init",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "Init, Load, PreRender",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "None of the above",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1016,
-            "name": "Which of these data source controls do not implement caching?",
-            "questionTypeId": 1,
-            "options": [{
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "ObjectDataSource",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "LinqDataSource",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "SqlDataSource",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "XmlDataSource",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1017,
-            "name": "Which tag asp:Label control by default renders to?",
-            "questionTypeId": 1,
-            "options": [{
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "div",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "span",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "body",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "label",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1018,
-            "name": "Which method do you use to explicitly kill a user's session?",
-            "questionTypeId": 1,
-            "options": [{
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "Session.Terminate()",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "Session.TimeOut()",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "Session.Abondon()",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "Session.Kill()",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1019,
-            "name": "Which of the following object is ideal for keeping data alive for a single request?",
-            "questionTypeId": 1,
-            "options": [{
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "HttpContext",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "Session",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "Cookies",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "SqlServer",
-                    "isAnswer": false
                 }
             ],
             "questionType": {

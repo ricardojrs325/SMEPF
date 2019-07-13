@@ -101,7 +101,7 @@ export class Quiz9Component implements OnInit {
   }
 
   isAnswered(question: Question) {
-    return question.options.find(x => x.selected) ? 'Answered' : 'Not Answered';
+    return question.options.every(x => x.selected === x.isAnswer) ? 'Correcta' : 'Incorrecta';
   };
 
   isCorrect(question: Question) {

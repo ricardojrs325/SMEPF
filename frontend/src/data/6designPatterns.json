@@ -1,33 +1,33 @@
 {
     "id": 6,
-    "name": "Ejercico 6",
-    "description": "Design Patterns Quiz including solid principles.",
+    "name": "Tema 1: Monomios semejantes",
+    "description": "",
     "questions": [{
             "id": 1010,
-            "name": "In SOLID principle, O stands for:",
+            "name": "¿Cuál de los monomios a continuación tienen coeficientes semejantes?",
             "questionTypeId": 1,
             "options": [{
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Objects and Variables",
-                    "isAnswer": false
+                    "name": "2x2 , 6x2",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Open-Closed Principle",
-                    "isAnswer": true
+                    "name": "x3  , 5x5 ",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Object Oriented Programming",
+                    "name": "x, z ",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "OutOfMemory Exception",
+                    "name": "8x2 , 10 x3",
                     "isAnswer": false
                 }
             ],
